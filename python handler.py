@@ -1,6 +1,4 @@
 # Deployment:
-# - change DOSUG_BOT_URL to "https://api.telegram.org/bot636977773:AAGLkv15VZalYNL7WWu4IRVvPb_Xakz79Zo"
-# - change SLACK_DOSUG_URL to "https://hooks.slack.com/services/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"
 # - uncomment "from botocore.vendored import requests"
 
 import json
@@ -17,11 +15,6 @@ sys.path.append(os.path.join(here, "../vendored"))
 
 import requests
 #from botocore.vendored import requests
-
-DOSUG_BOT_URL = "https://api.telegram.org/bot652834148:AAG8oRWknsoIDZGIJ7fcWP-KfFvSCFUzHYk" 
-SLACK_DOSUG_URL = "https://hooks.slack.com/services/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"
-SLACK_ANTON_URL = "https://hooks.slack.com/services/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"
-SLACK_POKUPKI_URL = "https://hooks.slack.com/services/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"
 
 MIN_MESSAGE_LENGTH = 50
 
